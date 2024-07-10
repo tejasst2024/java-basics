@@ -1,0 +1,14 @@
+1. Implementation :
+    -> extends Thread
+    -> implements Runnable
+2. The start() method is used to call the void run() method. When start() is called, a new stack is given to the thread, and run() is invoked to introduce a new thread in the program.
+
+3. Thread States
+    NEW  ----INTERRUPT----> DEAD
+         ----START--------> RUNNABLE
+    RUNNABLE ------RUN----> RUNNING
+             ----INTERRUPT----> DEAD
+    RUNNING -----WAIT------> BLOCKED
+            -----SLEEP-----> BLOCKED
+            -----INTERRUPT--> DEAD
+

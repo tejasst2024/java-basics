@@ -1,0 +1,17 @@
+1. Never use a for/foreach loop with Collections :
+        -> as .remove/.add method modifies the existing collection
+        -> foreach loop throws java.util.ConcurrentModificationException
+        -> use an iterator(might throw UnsupportedOperationException check compatibility)
+        -> or use different collection
+        -> <collection>.removeIf("name"::equals)
+        -> After declaring the iterator, fruits.add("Watermelon") will throw java.util.ConcurrentModificationException
+  *A modCount is an int variable which counts the number of times this list has been structurally modified.
+2. Parallel streams are used to process multiple cores.
+3. Collections.emptyList is immutable (throws java.lang.UnsupportedOperationException)
+4. If you're creating a sublist from a list, then any modifications made to sublist will affect the main list. This is called Backed collections.
+    -> list - subList
+    -> set - subSet
+    -> map - subMap
+5.
+
+

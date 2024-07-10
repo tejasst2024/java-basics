@@ -1,0 +1,5 @@
+1. FIELD :
+    -> Cannot have parameters in method
+    -> the return types are restricted to primitives, String, Class, enums, annotations, and arrays of these types
+    -> the default value cannot be null
+2.

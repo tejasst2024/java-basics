@@ -1,0 +1,8 @@
+1. While iterating if the limit is,
+    100     -       forEach
+    10000   -       forEach
+    100000  -       whileMapEntry > forEachMapEntry > forIterator
+2. Methods -
+    put(), get(), containsKey(), containsValue(), getOrDefault(), foreach(), replaceAll()
+    putIfAbsent(), computeIfAbsent(),
+3.

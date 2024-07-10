@@ -1,0 +1,9 @@
+1. Sorting a list can be done in multiple ways :
+    -> Collections.sort(usersDTO) - UserDTO should have implemented Comparable Interface
+    -> Collections.sort(usersDTO, comparator)
+    -> usersDTO.sort(comparator)
+2. Find common elements from 2 lists - use l1.retainAll(l2)
+3. Replace an index of a list - set(index, val)
+4. Reverse a list - Collections.reverse(listName)
+5. Rotate a list - Collections.rotate(listName, 1);
+6.

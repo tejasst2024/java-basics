@@ -1,0 +1,14 @@
+1. @Target
+    -> The scope of where it can be applied on.
+2. @Retention
+    -> When this has to be executed
+    -> SOURCE - visible by neither the compiler nor the runtime
+    -> CLASS - visible by the compiler (Default)
+    -> RUNTIME - visible by the compiler and the runtime
+3. @Inherited
+    -> We can use the @Inherited annotation to make our annotation propagate from an annotated class to its subclasses.
+4. @Documented
+    -> By default, Java doesn’t document the usage of annotations in Javadocs.
+    -> But, we can use the @Documented annotation to change Java’s default behavior.
+5. @Repeatable
+    -> we can make an annotation repeatable

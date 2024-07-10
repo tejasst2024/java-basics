@@ -1,0 +1,8 @@
+1. Set -> HashSet, TreeSet, LinkedHashSet
+2. add()
+3. clear()
+4. contains()
+5. isEmpty()
+6. remove()
+7. Uniqueness is determined by the equals() and hashCode() methods.
+8.

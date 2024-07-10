@@ -1,0 +1,4 @@
+1. Functional Interface -
+    -> It can have only one method.
+    -> The object created can be assigned to a lambda expression.
+    -> They are used to pass method as a parameter.

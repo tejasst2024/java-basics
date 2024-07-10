@@ -1,0 +1,7 @@
+1. Priority Queue :
+    -> The type must implement Comparable/Comparator Interface
+    -> sorts the elements by using compareTo method
+2. Deque :
+    -> methods : getFirst(), getLast(), addFirst(), addLast(), removeFirst(), removeLast(), element()
+    -> When you are using a BlockingQueue you will have to use the offer method and not add method.
+    -> Add method throws an exception if queue is full.

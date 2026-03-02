@@ -8,7 +8,7 @@ group = 'com'
 version = '0.0.1-SNAPSHOT'
 
 java {
-	sourceCompatibility = '17'
+	sourceCompatibility = "17.PREVIEW"
 }
 
 repositories {
@@ -28,6 +28,8 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-data-jpa')
 //	implementation('com.h2database:h2')
 	implementation('mysql:mysql-connector-java')
+	implementation 'com.jayway.jsonpath:json-path:2.8.0'
+
 
 }
 
@@ -35,3 +37,4 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+targetCompatibility = JavaVersion.VERSION_17

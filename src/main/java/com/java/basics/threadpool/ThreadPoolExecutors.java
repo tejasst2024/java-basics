@@ -39,6 +39,9 @@ public class ThreadPoolExecutors {
         RejectedExecutionHandler rejectedExecutionHandler = new ThreadPoolExecutor.DiscardOldestPolicy();
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(1, 1, 1000, TimeUnit.MILLISECONDS, queue);
 
+        ExecutorService threadPoolExecutors = Executors.newFixedThreadPool(1);
+
+
         Callable<Integer> callable = () -> {
             System.out.println(Thread.currentThread().getName());
 //            System.out.println(4/0);
